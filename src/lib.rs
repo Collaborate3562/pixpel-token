@@ -2,7 +2,7 @@
 use concordium_cis2::*;
 use concordium_std::*;
 
-const TOKEN_ID_WCCD: ContractTokenId = TokenIdUnit();
+const TOKEN_ID: ContractTokenId = TokenIdUnit();
 
 const TOKEN_METADATA_URL: &str = "https://some.example/token/wccd";
 
